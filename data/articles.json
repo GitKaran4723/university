@@ -1,0 +1,24 @@
+[
+    {
+      "id": "article1",
+      "title": "The Wonders of Space Exploration",
+      "author": "John Doe",
+      "date": "2024-12-01",
+      "file": "content/articles/article1.md"
+    },
+    {
+      "id": "article2",
+      "title": "The Impact of Technology on Education",
+      "author": "Jane Smith",
+      "date": "2024-12-02",
+      "file": "content/articles/article2.md"
+    },
+    {
+      "id": "article3",
+      "title": "The Future of Renewable Energy",
+      "author": "Alice Johnson",
+      "date": "2024-12-03",
+      "file": "content/articles/article3.md"
+    }
+  ]
+  

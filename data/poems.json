@@ -1,0 +1,24 @@
+[
+    {
+      "id": "poem1",
+      "title": "Dancing with the Breeze",
+      "author": "Emily Brown",
+      "date": "2024-12-01",
+      "file": "content/poems/poem1.md"
+    },
+    {
+      "id": "poem2",
+      "title": "The Stars Weep Tonight",
+      "author": "Michael Green",
+      "date": "2024-12-02",
+      "file": "content/poems/poem2.md"
+    },
+    {
+      "id": "poem3",
+      "title": "A Whisper from the Ocean",
+      "author": "Sophia White",
+      "date": "2024-12-03",
+      "file": "content/poems/poem3.md"
+    }
+  ]
+  

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Showcase</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">University Showcase</div>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="menu">
+        <li><a href="#" onclick="fetchAndRender('articles')">Articles</a></li>
+        <li><a href="#" onclick="fetchAndRender('poems')">Poems</a></li>
+        <li><a href="#" onclick="fetchAndRender('artworks')">Artworks</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to the University Showcase</h1>
+      <p>Explore the brilliance of student creativity. Dive into inspiring Articles, Poems, and Artworks from our
+        talented university community.</p>
+      <a href="#content-list" class="btn">Discover Now</a>
+    </div>
+  </section>
+
+  <!-- Content List -->
+  <main>
+    <section id="content-list" class="category-section">
+      <div class="category-card" onclick="fetchAndRender('articles')">
+        <h2>Articles</h2>
+        <p>Thought-provoking essays, opinions, and stories by students.</p>
+      </div>
+      <div class="category-card" onclick="fetchAndRender('poems')">
+        <h2>Poems</h2>
+        <p>Creative expressions through the beauty of words and rhythm.</p>
+      </div>
+      <div class="category-card" onclick="fetchAndRender('artworks')">
+        <h2>Artworks</h2>
+        <p>Captivating visual creations in traditional and digital formats.</p>
+      </div>
+    </section>
+
+    <!-- Content Display Section -->
+    <section id="content-display" class="hidden content-display">
+      <!-- Dynamically loaded Markdown content will appear here -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 University Showcase. Designed with ♥ by [Your Name].</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+
+</html>
